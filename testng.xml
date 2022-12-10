@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="5" name="Test">
+    <classes>
+      <!-- class name="restAPI.GetRequest"/-->
+      <!-- class name="restAPI.GetRequestWithParam"/-->
+      <!-- class name="restAPI.PostRequest"/-->
+      <!-- class name="restAPI.PostRequestWithMap"/-->
+      <!-- class name="restAPI.PostRequestWithFile"/-->
+      <!-- class name="restAPI.PutRequest"/-->
+      <!-- class name="restAPI.PatchRequest"/-->
+       <!-- class name="restAPI.DeleteRequest"/-->
+        <!-- class name="restAPIXML.XMLExample"/-->
+         < class name="restAPIBDD.GetRequest"/>
+         <!-- class name="restAPIBDD.PostRequest"/-->
+       
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
